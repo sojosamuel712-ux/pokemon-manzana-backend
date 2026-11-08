@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "id": "baya-ziu", "name": "Baya Ziu", "price": 35, "description": "Recupera energía y mejora la resistencia en combate." },
+    { "id": "pocion-minorista", "name": "Poción minorista", "price": 80, "description": "Repara pequeños daños antes del enfrentamiento." },
+    { "id": "vara-relicario", "name": "Vara de relicario", "price": 120, "description": "Objeto especial para entrenadores de la comunidad." }
+  ],
+  "pokemon": [
+    { "name": "Garchomp", "price": 250, "rarity": "Épico" },
+    { "name": "Dragonite", "price": 240, "rarity": "Épico" },
+    { "name": "Dragapult", "price": 260, "rarity": "Legendario" },
+    { "name": "Metagross", "price": 220, "rarity": "Rareza alta" }
+  ]
+}

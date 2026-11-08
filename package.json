@@ -1,0 +1,23 @@
+{
+  "name": "manzanap-backend",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "admin:create": "node scripts/create-admin.cjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pokemon-showdown": "^0.11.11",
+    "sqlite3": "^6.0.1"
+  },
+  "overrides": {
+    "sqlite3": "$sqlite3",
+    "nodemailer": "^10.0.13",
+    "uuid": "^11.1.1"
+  }
+}
